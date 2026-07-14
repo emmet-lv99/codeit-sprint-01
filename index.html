@@ -5,8 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>판다마켓</title>
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
   </head>
   <body>
-    인덱스
+    <!-- nav -->
+    <nav class="gnb">
+      <div class="gnb__wrapper">
+        <div class="gnb__logo-wrapper">
+          <img class="gnb__logo" src="./assets/logo.png" />
+          <img class="gnb__logo-type" src="./assets/logo-type.png" />
+        </div>
+        <a class="gnb__btn-login" href="./login.html">로그인</a>
+      </div>
+    </nav>
+    <!-- content -->
+    <main>
+      <!-- main banner -->
+      <section class="main-banner">
+        <div class="main-banner-wrapper">
+          <div class="banner__left">
+            <p class="banner__left-desc">
+              일상의 모든 물건을
+              <br />
+              거래해 보세요
+            </p>
+            <a class="banner__left-btn" href="./items.html">구경하러 가기</a>
+          </div>
+          <div class="banner__right">
+            <img
+              src="./styles/Img_home_top.png"
+              alt="판다마켓 메인 배너 이미지"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- section-popularity -->
+      <section class="popularity">인기 상품</section>
+      <!-- section-search -->
+      <section class="search">상품 검색</section>
+      <!-- section-registration -->
+      <section calss="registration">판매 등록</section>
+      <!-- section-intro -->
+      <section class="intro">소개</section>
+    </main>
+    <!-- footer -->
+    <footer class="footer"></footer>
   </body>
 </html>
