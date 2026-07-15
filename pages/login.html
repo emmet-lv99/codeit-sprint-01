@@ -16,18 +16,41 @@
   </head>
   <body>
     <main class="container">
-      <div class="logo">로고</div>
-      <section class="from">
+      <a class="logo-container" href="../pages/index.html">
+        <img class="logo" src="../assets/logo.png" />
+        <img class="logo-type" src="../assets/logo-type.png" />
+      </a>
+      <section class="from-container">
         <form class="login-form">
-          <label class="label-email"></label>
-          <input class="input-email" />
-          <lable class="label-pw"></lable>
-          <input class="input-pw" type="password" />
+          <label for="email" class="label-email">이메일</label>
+          <input
+            id="email"
+            class="input-email"
+            type="email"
+            placeholder="이메일을 입력해주세요"
+          />
+          <label for="pw" class="label-pw">비밀번호</label>
+          <div class="pw-wrapper">
+            <input
+              id="pw"
+              class="input-pw"
+              type="password"
+              placeholder="비밀번호를 입력해주세요"
+            />
+            <img src="../assets/btn_visibility_off_24px.svg" />
+          </div>
         </form>
-        <button class="btn-login">로그인</button>
+        <a class="btn-login">로그인</a>
         <div class="easy-login-container">
           <span class="easy-login-label">간편 로그인하기</span>
-          <div class="easy-login-btns"></div>
+          <div class="easy-login-btns">
+            <a href="https://www.google.com">
+              <img src="../assets/login_ic_google.png" />
+            </a>
+            <a href="https://www.kakaocorp.com/page">
+              <img src="../assets/login_ic_kakao.png" />
+            </a>
+          </div>
         </div>
         <div class="signup-container">
           <span>판다마켓이 처음이신가요?</span>
