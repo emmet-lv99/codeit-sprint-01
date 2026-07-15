@@ -11,3 +11,8 @@
 body {
   font-family: Pretendard;
 }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}

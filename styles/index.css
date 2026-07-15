@@ -14,11 +14,6 @@
   color: var(--secondary-700);
 }
 
-a {
-  cursor: pointer;
-  text-decoration: none;
-}
-
 /* gnb */
 .gnb {
   display: flex;
