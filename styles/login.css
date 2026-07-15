@@ -65,6 +65,20 @@ input::placeholder {
   margin-top: 24px;
 }
 
+.pw-wrapper {
+  position: relative;
+}
+.pw-wrapper > img {
+  position: absolute;
+  right: 24px;
+  bottom: 12px;
+}
+
+.input-pw {
+  padding-right: 60px;
+}
+
+/* login button */
 .btn-login {
   display: block;
   height: 56px;
@@ -79,17 +93,8 @@ input::placeholder {
   color: var(--cool-gray-100);
 }
 
-.pw-wrapper {
-  position: relative;
-}
-.pw-wrapper > img {
-  position: absolute;
-  right: 24px;
-  bottom: 12px;
-}
-
-.input-pw {
-  padding-right: 60px;
+.btn-login.active {
+  background-color: var(--primay-color);
 }
 
 /* easy-login */
