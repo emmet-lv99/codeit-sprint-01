@@ -80,6 +80,10 @@ input::placeholder {
   color: var(--cool-gray-100);
 }
 
+.btn-login.active {
+  background-color: var(--primay-color);
+}
+
 .pw-wrapper {
   position: relative;
 }
