@@ -61,7 +61,8 @@ input::placeholder {
   flex-direction: column;
 }
 
-.label-pw {
+.label-pw,
+.label-nickname {
   margin-top: 24px;
 }
 
